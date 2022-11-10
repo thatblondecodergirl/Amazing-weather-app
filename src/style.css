@@ -1,9 +1,10 @@
 body {
   font-family: arial, sans-serif;
+  background-color: rgba(252, 79, 79, 0.3);
 }
 
 h1 {
-  color: #878787;
+  color: white;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -20,7 +21,7 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: white;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -39,6 +40,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background-color: #ffbc80;
 }
 
 .overview {
@@ -52,7 +54,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: white;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -62,10 +64,11 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+  color: #fc4f4f;
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: white;
   cursor: default;
 }
 
@@ -76,7 +79,7 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: #fc4f4f;
 }
 
 .weather-forecast-date {
